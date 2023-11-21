@@ -1,0 +1,153 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #820100;
+    color: #fff;
+    padding: 40px;
+  }
+  
+  header h1 {
+    margin: 0;
+    
+  }
+  #image1 {
+    width: 10.5%; /* Asegura que la imagen ocupe todo el ancho del encabezado */
+    height: auto; /* Ajusta automáticamente la altura para mantener la proporción */
+    display: block; /* Elimina el espacio extra por defecto debajo de la imagen */
+    position: absolute;
+    top: 8.7%;
+    left:83%;
+    border-radius:10%
+  }
+  header img {
+    width: 5%; /* Asegura que la imagen ocupe todo el ancho del encabezado */
+    height: auto; /* Ajusta automáticamente la altura para mantener la proporción */
+    display: block; /* Elimina el espacio extra por defecto debajo de la imagen */
+    position: absolute;
+    top: 9.5%;
+    left:19%;
+    border-radius:10%
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    border-bottom: none;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+    border-bottom: none;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: none;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  main {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  article {
+    flex: 1;
+    margin-right: 20px;
+  }
+  .pl{
+    max-width: 700px;
+  }
+
+  .imp{
+    width: 40%;
+    height: auto;
+  }
+
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporción del video 16:9 (9 / 16 = 0.5625) */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    border: none;
+    outline: none;
+  }
+  
+#asmenu{
+    text-align: center;
+    color:#fff;
+}
+
+
+
+
+  
+  aside{
+    width: 155px;
+    background-color:#6c0c0c;
+    padding: 20px;
+    position: absolute;
+    right: 5.7%;
+    top:370px;
+  }
+  aside nav ul {
+   
+    padding: 0;
+    display: flex;
+    border-bottom: none;
+   
+    text-decoration: none;
+    display: block;
+  }
+  
+  aside nav ul li {
+    margin-right: 20px;
+    border-bottom: none;
+    text-decoration: none;
+    display: block;
+  }
+  
+  aside nav ul li a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: none;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  

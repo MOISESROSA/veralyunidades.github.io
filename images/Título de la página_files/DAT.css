@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #780000;
+    color: #fff;
+    height: 320px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+ 
+
+
+  .contenedor {
+    width: 20%; /* Ancho del contenedor */
+    height: 20%; /* Altura del contenedor al 100% de la altura de la ventana */
+    display: flex; /* Usa flexbox para centrar la imagen */
+    justify-content:center;
+    align-items: center; /* Centra verticalmente */
+  }
+    
+  
+    
+  
+@media screen and (max-width: 768px) {
+    .contenedor {
+      flex-direction: column; /* Cambia a disposición vertical */
+      /* Otros estilos específicos para pantallas más pequeñas */
+    }
+  }
+
+  
+  /* Estilos de la imagen */
+  .imagen{
+    position:absolute; /* Permite controlar la posición */
+    top:1.5%; /* Posición vertical en el 50% del contenedor */
+    left:2%; 
+    max-width:12%; /* Ancho máximo de la imagen */
+    max-height:12%; /* Altura máxima de la imagen */
+    width:auto; /* Ancho automático para mantener la proporción */
+    height:auto; /* Altura automática para mantener la proporción */
+    border:none;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  article {
+    margin-bottom: 20px;
+  }
+  
+  .menu {
+    width: 170px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    right: 1%;
+  }
+  
+  .menu h2 {
+    margin-bottom: 20px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    margin-bottom: 10px;
+  }
+  
+  .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  
+  /* Estilos del contenido principal */
+  .contenido {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #mp {
+    color: #333;
+    position: absolute;
+    left: 10%;
+  }
+  
+  #pi {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 10%;
+    top:57%;
+
+  }
+  
+  /* Media queries para diferentes tamaños de pantalla */
+  @media screen and (max-width: 768px) {
+    #pi {
+      font-size: 16px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+      margin-bottom: 15px; /* Margen reducido */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #pi {
+      font-size: 14px; /* Tamaño de fuente aún más pequeño para dispositivos muy pequeños */
+      margin-bottom: 10px; /* Margen aún más reducido */
+    }
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;}
